@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    /* The image used */
+    background-color: skyblue;
+    text-align: center;
+    text-decoration: dashed;
+
+    /* Set a specific height */
+    height: 100px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: 2000px; /* Just for demonstration, to allow scrolling */
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+video {
+    width: 320px;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    height: 300px;
+}
